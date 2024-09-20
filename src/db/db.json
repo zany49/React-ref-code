@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "samsung",
+      "mobileModel": "s24",
+      "img": "https://m.media-amazon.com/images/I/81vxWpPpgNL.jpg"
+    },
+    {
+      "id": 2,
+      "name": "iphone",
+      "mobileModel": "13pro",
+      "img": "https://m.media-amazon.com/images/I/61l9ppRIiqL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "redmi",
+      "mobileModel": "note 13",
+      "img": "https://m.media-amazon.com/images/I/61l9ppRIiqL._AC_UF1000,1000_QL80_.jpg"
+    }
+  ]
+}
