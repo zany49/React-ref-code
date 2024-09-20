@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './style.css' 
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDollarSign } from "@fortawesome/free-solid-svg-icons";
 
 const Button = () =>{
     const [count, setCount] = useState(0)
@@ -105,7 +106,10 @@ const Button = () =>{
 
                 <button className='btn' onClick={()=>{
                     updateArr('name')
-                }}>update data</button>
+                }}>
+                  update data
+                <FontAwesomeIcon icon={faDollarSign} />
+                </button>
                 <div>
                     {
                        itemList?.length > 0 ? itemList?.map((d,i)=>{
